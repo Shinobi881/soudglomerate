@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+ 
+<html ng-app="soundGlomerate">
+<head>
+  <meta charset="utf-8"/>
+  <title>SoundGlomerate</title>
+
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+</head>
+
+<body> 
+  <nav class="navbar navbar-default navbar-fixed-top" >   
+    <!-- <img src="./assets/background1.jpg" style="height:100px; width:100%"> -->
+    <div class="container">  
+      <a href="/" class="navbar-brand"> 
+        <!-- this is the logo on the navbar -->
+        <img src="./assets/SGlogo16.png" class="pull-left"> 
+      </a>
+      <ul id="navPills" class="nav nav-pills pull-right">
+         <li id="home"><a style="color:red" href="/">Home</a></li>
+         <li id="about"><a style="color:red" href="/about">About</a></li>
+      </ul>
+    </div>  
+  </nav>
+
+  <div class="container-fluid">
+    
+  <div id="main" ui-view><div>
+
+  <!--  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"></script>
+-->
+
+<!-- Angular needs to stay here in order to be used for typhead -->
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-animate.js"></script>
+  <script src="https://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.13.4.js"></script>
+
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+  <script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
+  <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+  <script src="bower_components/angular-google-maps/dist/angular-google-maps.js"></script>
+
+  <script src="bower_components/ngmap/build/scripts/ng-map.js"></script>
+  <script src="bower_components/lodash/lodash.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+ 
+  <script src="bower_components/ngmap/build/scripts/ng-map.min.js"></script>
+  <script src="bower_components/angular-wurfl-image-tailor/src/angular-wurfl-image-tailor.js"></script>
+  <script src="bower_components/lodash/lodash.min.js"></script>
+  <script src="bower_components/angular-utils-pagination/dirPagination.js"></script>
+  <script src="/bower_components/angular-spinners/dist/angular-spinners.js"></script>
+
+  <script src="app/app.js"></script>
+  <!--<script src="app/about/about.js"></script>-->
+  <script src="app/main/main.js"></script>
+  <script src="app/main/main.services.js"></script>
+  <script src="app/map/map.js"></script>
+  <script src="app/map/map.services.js"></script>
+  <script src="app/results/results.js"></script>
+  <script src="app/results/results.services.js"></script>
+  <script src="app/search/search.js"></script>
+  <script src="app/search/search.services.js"></script>
+  <script src="app/selectedEvent/selectedEvent.js"></script>
+  <script src="app/selectedEvent/selectedEvent.services.js"></script>
+
+
+
+
+</body>
+
+</html>

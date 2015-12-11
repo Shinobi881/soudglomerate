@@ -1,0 +1,467 @@
+/*.container-fluid{
+  background-color: black;
+
+}*/
+body{
+  background-attachment: fixed;
+}
+
+.container-fluid.footer{
+  background-color: white;
+  
+
+}
+
+#landingFooter{
+  background-color: white;
+}
+
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+nav{
+  /*background: -webkit-linear-gradient(left, #000000, #606060);*/
+  height:75px;
+  border-color: #000000;
+  background-image: url("../assets/background1.jpg");
+}
+
+#home{
+  margin-top: 15px;
+  /*border-style: solid;*/
+  /*border-color: red;*/
+  font-weight: bold;
+  font-size: 16px;
+  /*background-color: red;*/
+  opacity: .3;
+  color: white !important;
+}
+
+#about{
+  margin-top: 15px;
+  /*border-style: solid;*/
+  /*border-color: red;*/
+  font-weight: bold;
+  font-size: 16px;
+  /*background-color: red;*/
+  opacity: .3;
+  color: white !important;
+
+}
+/***********************************************************************/
+/************************** SEARCH BAR *********************************/
+/***********************************************************************/
+
+/********* GLOBAL SEARCH BAR ******************/
+
+
+#globalSearch{
+  height: 60px;
+  border-radius: 10px;
+}
+
+#globalSearch:hover{
+  height: 60px;
+  border-radius: 10px;
+  border-color: #9C0505 !important;
+  box-shadow: 1px 1px 5px 5px #9C0505, 0px 0px 20px #9C0505 !important;
+  transition-duration: 0.8s;
+}
+
+#searchLoc{
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  transition-duration: 0.8s;
+}
+
+#startDate{
+  margin-top: 10px;
+  font-weight: bold;
+
+}
+
+#endDate{
+  margin-top: 10px;
+  font-weight: bold;
+
+}
+
+input:hover{
+  border-color: #9C0505 !important;
+  box-shadow: 1px 1px 3px 2px #9C0505, 0px 0px 20px #9C0505 !important;
+
+}
+
+input:focus{
+  border-color: #9C0505 !important;
+  box-shadow: inset 1px 1px 3px 2px #9C0505, 0px 0px 20px #9C0505 !important;
+
+}
+
+button {
+  margin-top: 10px !important;
+  background-color: black !important;
+  border-color: #9C0505 !important;
+  box-shadow: inset 1px 1px 12px 5px #9C0505, 0px 0px 20px #9C0505!important;
+}
+
+/***********************************************************************/
+/*********************** LANDING PAGE VIEW *****************************/
+/***********************************************************************/
+
+/********* LANDING VIEW SEARCH BAR *************/
+
+#landingSearch {
+  
+  color: black;
+}
+
+/**************** LANDING IMAGE ****************/
+
+#landingImage {
+    /*margin-top: 2%;*/
+    display: inline-block;
+    /*height: 30%;*/
+    max-height:860px;
+    max-width: 110% ;
+    page-break-inside: avoid; 
+    width: 105% !important;
+    vertical-align: left;
+    margin-left: -2%;
+}
+
+/***********************************************************************/
+/************************* RESULTS VIEW ********************************/
+/***********************************************************************/
+
+/************ RESULTS SEARCH *************/
+.page-results{ background:#00D0BC; color:#00907c; }
+#resultsSearch {
+  border-radius: 0px !important;
+  opacity: 1;
+  margin-left: -1.5%;
+  margin-right: -1.5%;
+}
+
+/*************** SPINNER *****************/
+
+#resultsPagingate{}
+
+
+/*************** EVENTS ******************/
+
+#resultsEvent{
+  /*border-top:solid; */
+  /*border-bottom:solid; */
+  margin-left: 5%;
+  margin-right: 30px;
+  margin-top: 10px;
+  background: rgba(0,0,0,.5);
+  color: rgba(255,255,255,.8);
+  /*opacity: .3;*/
+  
+}
+
+ 
+
+
+#resultsEvent:hover{
+  -webkit-transform: translate3d(-3px, -3px, 5px);
+  src: url('../../includes/fonts/chunk-webfont.svg') format('svg');
+  -webkit-font-smoothing: antialiased;
+  font-weight: bold;
+  box-shadow: 2px 2px 10px 0px #9C0505, 4px 4px 9px 0px #000000  ;
+  transition-duration: 0.5s;
+  -webkit-transition-property: transform;
+}
+
+#resultsEventImage{
+  height: 180px;
+  width: 250px;
+}
+
+#resultsEventLogo{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#resultsEventLogo:hover{
+  -webkit-transform: translateY(5px);
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+#resultsEventTitle{
+  color: #787878 ;
+  font-size: 16px;
+}
+
+#resultsEventTitle:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  transition-duration: 0.2s;
+  text-shadow: 1px 2px 1px #9C0505;
+  /*font-family: inherit;*/
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+    /*font-size: 14px;*/
+  line-height: 1.42857143;
+}
+
+/*
+.genreText{
+  text-decoration: none;
+  font: red;
+}*/
+
+/*********** FILTER (RESULTS VIEW) *************/
+
+
+/*Panel settings before dropdown*/
+.panel-heading{
+  background-color: red !important;
+}
+
+
+#resultsFilter{
+  /*position: fixed;*/
+  border-style:solid;
+  margin-top:100px;
+  /*margin-left: 3%;*/
+  padding-top: 20px;
+  background-color: red;
+  border-radius: 3px;
+  opacity: .7;
+}
+
+/*Background color of the dropped filter list*/
+#filterGenre{
+  background-color: black;
+}
+
+/*The button links for the filter genres */
+#filterGenre a{
+  color: black;
+}
+
+/*The filter list title when clicked on*/
+#filterGenre a:focus{
+  outline: none;  
+}
+
+/*The filter list title when moused over*/
+#filterGenre a:hover{
+  outline: none;  
+  font-size: 1.15em;
+}
+
+#filterArtists{
+  background-color: black;
+}
+
+.filterAll {
+  /*background-color: red;*/
+}
+/*The button links for the filter genres */
+#filterArtists a{
+  color: black;
+}
+
+/*The filter list title when clicked on*/
+#filterArtists a:focus{
+  outline: none;  
+}
+
+/*The filter list title when moused over*/
+#filterArtists a:hover{
+  outline: none;  
+  font-size: 1.15em;
+}
+
+#filterVenue{
+  background-color: black;
+}
+
+/*The button links for the filter genres */
+#filterVenue a{
+  color: black;
+}
+
+/*The filter list title when clicked on*/
+#filterVenue a:focus{
+  outline: none;  
+}
+
+/*The filter list title when moused over*/
+#filterVenue a:hover{
+  outline: none;  
+  font-size: 1.15em;
+}
+
+#filterPrice{
+  background-color: black;
+}
+
+/*The button links for the filter genres */
+#filterPrice a{
+  color: black;
+}
+
+/*The filter list title when clicked on*/
+#filterPrice a:focus{
+  outline: none;  
+}
+
+/*The filter list title when moused over*/
+#filterPrice a:hover{
+  outline: none;  
+  font-size: 1.15em;
+}
+
+#filterReviews{
+  background-color: black;
+}
+
+/*The button links for the filter genres */
+#filterReviews a{
+  color: black;
+}
+
+/*The filter list title when clicked on*/
+#filterReviews a:focus{
+  outline: none;  
+}
+
+/*The filter list title when moused over*/
+#filterReviews a:hover{
+  outline: none;  
+  font-size: 1.15em;
+}
+
+#filterOther{
+  background-color: black;
+}
+
+/*The button links for the filter genres */
+#filterOther a{
+  color: black;
+}
+
+/*The filter list title when clicked on*/
+#filterOther a:focus{
+  outline: none;  
+}
+
+/*The filter list title when moused over*/
+#filterOther a:hover{
+  outline: none;  
+  font-size: 1.15em;
+}
+
+
+
+
+
+/**************** RESULTS MAP ****************/
+
+
+/***********************************************************************/
+/********************** SELECTED EVENT VIEW ****************************/
+/***********************************************************************/
+
+#selectedEventView{
+  /*border-style:solid; */
+  margin-right: 5%;
+  margin-top:5%;
+  background: rgba(0,0,0,.7);
+  color: rgba(255,255,255,.8);
+}
+
+#selectedEventView #selectedEventPic{
+  margin: 2em;
+} 
+
+#selectedEventTitle{
+  /*background: #890000;
+  opacity: .43;
+  color: #000000;*/
+} 
+
+#selectedEventDscr{
+  /*background: #890000;
+  opacity: .4;
+  font-size: 20px;
+  color: #000000;*/
+  /*background: rgba(0,0,0,.7);
+  color: rgba(255,255,255,.8);*/
+} 
+
+ 
+/***************************************************************************/
+/***************************************************************************/
+
+
+/* 
+*****************************************************************************
+styling for map. this is a test 
+*****************************************************************************
+*/
+
+#mapContainer {
+  /*width:100%;*/
+  margin-top: 30%;
+/*  position: fixed !important;
+*/
+}
+
+
+map {
+    /*height:800px;*/
+    width:400px;
+    /*width: 80%; */
+    height:40%; 
+    /*margin: 10px; */
+    /*margin-right: 3%;*/
+    margin-right: 30px;
+    opacity: .8;
+}
+
+/*************************** SPINNER *******************************/
+.spinner{
+
+}
+
+.spinner > div {
+  background-color: #F0A83A;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+  -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+  animation: stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+
+
+
+
+
+
