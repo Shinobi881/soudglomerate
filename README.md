@@ -2,12 +2,6 @@
 #SoundGlomerate#
 ###A project by the Telegraph Academy Thesis team (TGA[0]), De-La-Soul###
 
-##Team Roles##
-- co-project owner: Claire Bendersky
-- co-project owner: Moose Abdul-Musawwir
-- co-scrum master: Phillip Ventura
-- co-scrum master: Cristian Avalos
-
 ##Our Vision##
 
 Our goal is to provide a place for music lovers to find local events in their area. You should be able to find events ranging from large festivals and concerts, to DJ's spinning your favorite genres at local clubs and lounges, to bands at small neigborhood bars and everything below and in between. Our focus here is music. Tell us where you'd like to find events (currently limited to Oakland, Berkeley and San Francisco) and we'll show you events in your area. You can even filter musical genre. We will be adding more features soon...
@@ -22,3 +16,4 @@ Our goal is to provide a place for music lovers to find local events in their ar
 ![alt text](/public/assets/keyENV.png)
 6. From the CLi - `gulp start`
 
+# soudglomerate
